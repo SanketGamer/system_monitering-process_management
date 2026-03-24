@@ -1,0 +1,10 @@
+
+ps aux → See all running processes
+pgrep, pidof → Find process ID(Instead of searching manually in ps, use these)
+
+kill <pid>  -- stop the process
+pkill <using name>  -- stop process
+killall<using name> -- stop all process
+kill -9 1234  -- force kill
+
+
