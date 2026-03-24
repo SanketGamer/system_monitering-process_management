@@ -1,0 +1,18 @@
+
+systemctl (control services) --
+systemctl status nginx  -- is it running ?, process id, logs
+sudo systemctl start nginx  -- start service(if stop)
+sudo systemctl stop nginx  -- stop service
+sudo systemctl restart nginx  -- restrart service (use after deployment, config chnage)
+sudo systemctl enable nginx  -- enable service
+sudo systemctl disable nginx  -- disable service
+
+journalctl -- check Logs related
+journalctl -u nginx  --  view logs of a service
+journalctl -u nginx -f   -- follow logs live like tail
+journalctl -u nginx --since "10 minutes ago"   -- show recent logs
+journalctl -u nginx -p err  -- show only errors
+
+
+/etc/systemd/system/ → Service files
+This is where custom service configs live
