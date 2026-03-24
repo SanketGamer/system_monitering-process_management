@@ -1,0 +1,9 @@
+
+top    -- show live system activity
+htop   -- better version of top
+df -h  -- check disk-space
+du -sh -- folder size
+free -m -- memory(ram)
+uptime -- system running time
+iostat  -- disk performance
+ss -tulnp -- check network issue
