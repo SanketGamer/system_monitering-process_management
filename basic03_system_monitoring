@@ -1,4 +1,7 @@
 
+A service = a background process running in your system
+systemctl This is your control center for services
+
 systemctl (control services) --
 systemctl status nginx  -- is it running ?, process id, logs
 sudo systemctl start nginx  -- start service(if stop)
