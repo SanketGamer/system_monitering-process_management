@@ -1,5 +1,13 @@
 
 top    -- show live system activity
+It shows what is happening inside your system right now
+You can see:
+CPU usage
+RAM usage
+Running processes
+Process IDs (PID)
+Which app is using how much resource
+
 htop   -- better version of top
 df -h  -- check disk-space
 du -sh -- folder size
